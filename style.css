@@ -83,3 +83,83 @@ gap: 20px;
 align-self: stretch;
   
 }
+button{
+  fond-size: 18px;
+  fond-weight: 500;
+  padding: 13px 25px;
+  cursor: pointer;
+}
+
+.btn-large{
+  padding: 17px 30px;
+}
+
+.btn-midle{
+  padding: 13px 25px;
+}
+
+.btn-small{
+  padding: 10px 20px;
+}
+
+.btn-primary {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border: 0;
+  border-radius: 4px;
+  background: var(--Dark-green-buttons, #3A4F39);
+  color: var(--white,#ffffff)
+  
+}
+.btn-primary:hover{
+  
+  background-color: #213220
+}
+
+
+.btn-secondary{
+ 
+display: inline-flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 4px;
+border: 1px solid var(--Dark-green-buttons, #3A4F39);
+background: var(--White-background, #FFF);
+color: var(--drak-green,#3A4F39)
+}
+.btn-secondary:hover {
+ background-color: #fff;
+  color:#213220
+}
+  
+
+
+.btn-midle{
+display: inline-flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 4px;
+border: 1px solid var(--Dark-green-buttons, #3A4F39);
+background: var(--White-background, #FFF);
+color: var(--drak-green,#3A4F39)
+  
+  
+}
+
+.btn-midle:hover{
+  border-color: #213220;
+  color: #213220
+}
+
+.btn-disabled{
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
