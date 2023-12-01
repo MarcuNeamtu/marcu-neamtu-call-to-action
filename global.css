@@ -30,13 +30,7 @@ html {
   font-weight: 400;
   line-height: 22px; /* 137.5% */
 }
-body{
-  background-image: url("https://images.unsplash.com/photo-1538983314533-980fb0ae24d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  /* background:red; */
-}
+
 /* Definim stilul pentru text ce se va folosi in meniuri */
 .menu-title {
   font-size: 32px;
