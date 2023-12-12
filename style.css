@@ -1,0 +1,68 @@
+.layout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+h1 {
+  color: var(--black-fonts-headings, #2D2E2E);
+  text-align: center;
+  
+  font-family: Inter;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+ 
+ }
+
+.img-front {
+  width: 610px;
+  height: 343px;
+  flex-shrink: 0;
+  align-content: center;
+  display: flex;
+  
+
+}
+
+.btn-primary {
+  display: flex;
+  height: 56px;
+  padding: 17px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  max-width: 395px;
+  height: 56px;
+  
+  border-radius: 4px;
+  background: var(--Dark-green-buttons, #3A4F39);
+  
+}
+.cta-btn {
+  width: 130px;
+  height: 56px;
+  radius: 4px;
+  padding: 17px, 30px, 17px, 30px
+  gap: 10px;
+}
+
+
+
+.content {
+  dispaly: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 388px;
+  flex-shrink: 0;
+  padding-right: 10px;
+}
+
+.img-front {
+   width: unset;
+  
+}
+
