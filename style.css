@@ -1,7 +1,18 @@
 body {
   background-image: url("https://images.unsplash.com/photo-1538983314533-980fb0ae24d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+ .content {
+   justify-content: center;
+   flex-direction: column;
+   gap: 32px;
+   align-items: center;
+   text-align: center;
 
+   padding: 10px;
+
+ }
 
 .page {
   display: flex;
@@ -18,12 +29,14 @@ body {
 h1 {
   color: var(--White-background, #000);
   text-align: center;
+  justify-content: center;
 
   font-family: Inter;
   font-size: 50px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 800;
   line-height: normal;
+  
 }
 
 p {
@@ -31,18 +44,26 @@ p {
   text-align: center;
 
   font-family: Inter;
-  font-size: 16px;
+  font-size: 19px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 22px; 
 }
 
 h2 {
   color: var(--White-background, #000);
   font-family: Inter;
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 22px; 
+  justify-content: center;
 }
+
+
+
+
+
+
+
 
